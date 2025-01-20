@@ -1,15 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url= https://installchecker.com/cl/i/42n311">
-  <title>Redirecting...</title>
-  <script>
-window.location.href="https://installchecker.com/cl/i/42n311" ;
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Video</title>
+    <style>
+        /* Global Styles */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+            background: linear-gradient(135deg, #0d0d0d, #1a1a1a, #121212);
+            background-size: 300% 300%;
+            animation: gradientBG 12s ease-in-out infinite;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Prevent Content Overflow */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 800px;
+            width: 90%;
+            margin: 20px;
+            padding: 30px;
+            background: rgba(25, 25, 25, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Video Wrapper */
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #101010;
+            margin-bottom: 20px;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Instructions Section */
+        .instructions {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .instructions h2 {
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        .instructions ul {
+            padding-left: 20px;
+            list-style: circle;
+        }
+
+        /* Call-to-Action Button */
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .cta button {
+            background: linear-gradient(90deg, #3a3a3a, #5a5a5a);
+            color: #e0e0e0;
+            border: 1px solid #5a5a5a;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
+        }
+
+        .cta button:hover {
+            background: linear-gradient(90deg, #5a5a5a, #3a3a3a);
+            color: #ffffff;
+            transform: scale(1.05);
+        }
+
+        .cta button:active {
+            transform: scale(0.95);
+        }
+
+        /* Footer (Optional) */
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <div class="video-wrapper">
+            <!-- Embed your YouTube video -->
+            <iframe src="https://www.youtube.com/embed/j9E4rq2A5TM?autoplay=1&rel=0&showinfo=0&controls=1" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <div class="instructions">
+            <h2>How to Complete the Offers</h2>
+            <p>Follow these steps to successfully complete the offers:</p>
+            <ul>
+                <li>Click on an offer that interests you.</li>
+                <li>Follow the specific instructions provided on the offer page.</li>
+                <li>Complete the tasks, such as signing up, downloading an app, or filling out a survey.</li>
+                <li>Once the offer is completed, your reward will be unlocked automatically.</li>
+            </ul>
+        </div>
+        <div class="cta">
+            <button onclick="startOffers()">Start Now</button>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 AdBlueMedia - All Rights Reserved.
+    </footer>
 
+    <script>
+        // Action when the button is clicked
+        function startOffers() {
+            alert('Redirecting you to the offers page...');
+            // Replace with your content locker or offers page URL
+            window.location.href = "https://unlockcontent.net/cl/i/37kqkn?preview=1";
+        }
+    </script>
 </body>
 </html>
